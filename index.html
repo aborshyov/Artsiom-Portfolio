@@ -16,7 +16,7 @@
     />
     <meta
       property="og:description"
-      content="1,000+ model evaluations and contributor audits, hands-on operations experience, and an MBA in Finance. Explore Artsiom's work and AthleteOS."
+      content="1,000+ model evaluations and contributor audits, practical operations experience, and an MBA in Finance. Explore Artsiom's work and AthleteOS."
     />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
@@ -141,14 +141,14 @@
             <div>
               <h2 id="project-title">AthleteOS</h2>
               <p class="project-tagline">
-                Athletic experience<br />Career-ready language
+                Athletic experience<br />Language for employers
               </p>
             </div>
             <div class="project-description">
               <p>
                 I built AthleteOS to help athletes explain their experience to
-                employers. It brings career-path ideas, resume translation,
-                job-fit insights, and outreach into one workflow.
+                employers. It brings career options, resume translation,
+                job matching insights, and outreach into one workflow.
               </p>
               <div class="actions">
                 <a
@@ -206,17 +206,17 @@
                 <p class="eyebrow">The problem</p>
                 <h3>Experience that needs translation</h3>
                 <p>
-                  Athletes develop leadership, teamwork, and decision-making
-                  skills, but it can be difficult to explain that experience in
-                  a resume or job search.
+                  Athletes develop leadership and teamwork skills and learn to
+                  make decisions under pressure. It can be difficult to explain
+                  that experience in a resume or job search.
                 </p>
               </div>
               <div>
                 <p class="eyebrow">What I built</p>
                 <h3>A clearer starting point</h3>
                 <p>
-                  I designed workflows for resume bullets, career-path
-                  exploration, job-fit language, and LinkedIn outreach, using
+                  I designed workflows for resume bullets, career
+                  exploration, language tailored to jobs, and LinkedIn outreach, using
                   structured prompts and demo athlete data.
                 </p>
               </div>
@@ -254,7 +254,7 @@
           <h2 id="work-title">Quality starts<br />with good judgment</h2>
           <p>
             1,000+ model evaluations and contributor audits, plus product
-            development and hands-on operations experience.
+            development and practical operations experience.
           </p>
         </div>
         <article class="evaluation-example" id="evaluation-example" aria-labelledby="evaluation-title">
@@ -275,7 +275,7 @@
                 <section aria-labelledby="evaluation-task-title">
                   <p class="eyebrow">01 / The task</p>
                   <h4 id="evaluation-task-title">Compare the conversion rates</h4>
-                  <p>Using only these figures, compare demo completion (completed demos / invitations) and demo-to-paid conversion (paid signups / completed demos). Report the rates and percentage-point changes. State whether invite-to-paid conversion improved. Do not infer causes.</p>
+                  <p>Using only these figures, compare the demo completion rate (completed demos / invitations) and the customer conversion rate (paid signups / completed demos). Report both rates and their changes in percentage points. Also check the overall conversion rate (paid signups / invitations). Do not infer causes.</p>
                   <table class="evaluation-table">
                     <caption>Fictional source data</caption>
                     <thead><tr><th scope="col">Period</th><th scope="col">Invitations</th><th scope="col">Completed demos</th><th scope="col">Paid signups</th></tr></thead>
@@ -285,7 +285,7 @@
                 <section aria-labelledby="evaluation-response-title">
                   <p class="eyebrow">02 / Illustrative response</p>
                   <h4 id="evaluation-response-title">A plausible summary with important errors</h4>
-                  <blockquote>Demo completion rose from 40% to 50%, a 10% increase. Paid signups rose 25%, so demo-to-paid conversion improved. The new onboarding flow made the funnel more effective.</blockquote>
+                  <blockquote>Demo completion rose from 40% to 50%, a 10% increase. Paid signups rose 25%, so customer conversion improved. The new onboarding flow made the funnel more effective.</blockquote>
                   <p class="evaluation-response-note">This response was written with deliberate errors to make the review process visible.</p>
                 </section>
               </div>
@@ -297,16 +297,16 @@
                 </div>
                 <p>The 40% and 50% completion rates are correct, as is the 25% increase in paid signups. The conversion claim is wrong, a required comparison is missing, and the explanation is unsupported.</p>
                 <ol class="evaluation-findings">
-                  <li><h5>Separate counts from rates</h5><p>Paid signups increased from 20 to 25, but demo-to-paid conversion fell from 20/80 = 25% to 25/125 = 20%. That is a decrease of 5 percentage points.</p></li>
+                  <li><h5>Separate counts from rates</h5><p>Paid signups increased from 20 to 25, but customer conversion fell from 20/80 = 25% to 25/125 = 20%. That is a decrease of 5 percentage points.</p></li>
                   <li><h5>Use the correct unit</h5><p>Moving from 40% to 50% is an increase of 10 percentage points. The relative increase is 25%, not 10%.</p></li>
-                  <li><h5>Check every requested comparison</h5><p>The response omits invite-to-paid conversion. It stayed at 10%: 20/200 in Week 1 and 25/250 in Week 2.</p></li>
+                  <li><h5>Check every requested comparison</h5><p>The response omits the overall conversion rate. It stayed at 10%: 20/200 in Week 1 and 25/250 in Week 2.</p></li>
                   <li><h5>Keep the conclusion within the evidence</h5><p>The source contains no information about an onboarding change. These figures cannot establish why the results changed.</p></li>
                 </ol>
               </section>
               <section class="evaluation-correction" aria-labelledby="evaluation-correction-title">
                 <p class="eyebrow">04 / Corrected answer</p>
                 <h4 id="evaluation-correction-title">A conclusion supported by the figures</h4>
-                <p>Demo completion increased from 40% (80/200) to 50% (125/250), up 10 percentage points. Demo-to-paid conversion fell from 25% (20/80) to 20% (25/125), down 5 percentage points. Invite-to-paid conversion stayed at 10% (20/200 and 25/250). Paid signups increased from 20 to 25, but the overall conversion rate did not improve. These figures do not identify the cause.</p>
+                <p>Demo completion increased from 40% (80/200) to 50% (125/250), up 10 percentage points. Customer conversion fell from 25% (20/80) to 20% (25/125), down 5 percentage points. Overall conversion stayed at 10% (20/200 and 25/250). Paid signups increased from 20 to 25, but the overall conversion rate did not improve. These figures do not identify the cause.</p>
               </section>
             </div>
           </details>
@@ -332,7 +332,7 @@
                 concise scoring explanations that another reviewer can follow.
               </p>
               <div class="tags">
-                <span>Rubric-based scoring</span><span>Business & finance</span
+                <span>Scoring against rubrics</span><span>Business & finance</span
                 ><span>Structured feedback</span>
               </div>
             </div>
@@ -353,7 +353,7 @@
               </p>
               <p>
                 Compare model responses side by side across text, documents,
-                charts, images, audio, video, and multi-turn conversations.
+                charts, images, audio, video, and conversations across multiple messages.
                 Verify sources, distinguish model failures from flawed tests,
                 and give specific feedback on corrections.
               </p>
@@ -373,11 +373,11 @@
             </div>
             <div class="experience-copy">
               <p>
-                Built and deployed an AI-assisted career transition product for
+                Built and deployed a career transition product for
                 college, professional, international, and former athletes.
               </p>
               <p>
-                Designed resume, career-path, job-fit, and outreach workflows.
+                Designed workflows for resumes, career exploration, job matching, and outreach.
                 Used AI assistants to test workflows, compare results with user
                 needs, and refine prompts and outputs before release.
               </p>
@@ -397,7 +397,7 @@
             <div class="experience-copy">
               <p>
                 Coordinated schedules, officials, scorekeepers, rosters, and
-                game-day logistics.
+                logistics on game days.
               </p>
               <p>
                 Worked with coaches and facility staff to resolve scheduling
@@ -454,7 +454,7 @@
               <span class="skill-number" aria-hidden="true">01 /</span>
               <h3>AI evaluation</h3>
               <p>
-                Side-by-side comparisons, rubric-based scoring, task completion
+                Comparing responses, scoring against rubrics, task completion
                 checks, source verification, instruction following, and written
                 feedback.
               </p>
@@ -465,7 +465,7 @@
               <p>
                 Contributor audits, error classification, and quality review
                 across text, documents, charts, images, audio, video, and
-                multi-turn conversations.
+                conversations across multiple messages.
               </p>
             </article>
             <article>
@@ -480,7 +480,7 @@
               <span class="skill-number" aria-hidden="true">04 /</span>
               <h3>Operations</h3>
               <p>
-                Schedules, rosters, officials, scorekeepers, game-day logistics,
+                Schedules, rosters, officials, scorekeepers, logistics on game days,
                 documentation, and independent remote work.
               </p>
             </article>
