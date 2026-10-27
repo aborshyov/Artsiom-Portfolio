@@ -257,6 +257,61 @@
             development and hands-on operations experience.
           </p>
         </div>
+        <article class="evaluation-example" id="evaluation-example" aria-labelledby="evaluation-title">
+          <div class="evaluation-heading">
+            <p class="eyebrow">Independent demonstration</p>
+            <h3 id="evaluation-title">AI evaluation example</h3>
+            <p class="evaluation-intro">Checking the calculations and conclusions in a business performance summary</p>
+            <p class="evaluation-note">Fictional figures and an intentionally flawed response, created for this portfolio.</p>
+          </div>
+          <details class="evaluation-details">
+            <summary>
+              <span>View the example</span>
+              <span class="evaluation-summary-note">Task, review &amp; corrected answer</span>
+              <span class="details-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="evaluation-content">
+              <div class="evaluation-grid">
+                <section aria-labelledby="evaluation-task-title">
+                  <p class="eyebrow">01 / The task</p>
+                  <h4 id="evaluation-task-title">Compare the conversion rates</h4>
+                  <p>Using only these figures, compare demo completion (completed demos / invitations) and demo-to-paid conversion (paid signups / completed demos). Report the rates and percentage-point changes. State whether invite-to-paid conversion improved. Do not infer causes.</p>
+                  <table class="evaluation-table">
+                    <caption>Fictional source data</caption>
+                    <thead><tr><th scope="col">Period</th><th scope="col">Invitations</th><th scope="col">Completed demos</th><th scope="col">Paid signups</th></tr></thead>
+                    <tbody><tr><th scope="row">Week 1</th><td>200</td><td>80</td><td>20</td></tr><tr><th scope="row">Week 2</th><td>250</td><td>125</td><td>25</td></tr></tbody>
+                  </table>
+                </section>
+                <section aria-labelledby="evaluation-response-title">
+                  <p class="eyebrow">02 / Illustrative response</p>
+                  <h4 id="evaluation-response-title">A plausible summary with important errors</h4>
+                  <blockquote>Demo completion rose from 40% to 50%, a 10% increase. Paid signups rose 25%, so demo-to-paid conversion improved. The new onboarding flow made the funnel more effective.</blockquote>
+                  <p class="evaluation-response-note">This response was written with deliberate errors to make the review process visible.</p>
+                </section>
+              </div>
+              <section class="evaluation-review" aria-labelledby="evaluation-review-title">
+                <p class="eyebrow">03 / The review</p>
+                <div class="evaluation-verdict">
+                  <h4 id="evaluation-review-title">Needs revision</h4>
+                  <span>Accuracy · Instruction following · Evidence</span>
+                </div>
+                <p>The 40% and 50% completion rates are correct, as is the 25% increase in paid signups. The conversion claim is wrong, a required comparison is missing, and the explanation is unsupported.</p>
+                <ol class="evaluation-findings">
+                  <li><h5>Separate counts from rates</h5><p>Paid signups increased from 20 to 25, but demo-to-paid conversion fell from 20/80 = 25% to 25/125 = 20%. That is a decrease of 5 percentage points.</p></li>
+                  <li><h5>Use the correct unit</h5><p>Moving from 40% to 50% is an increase of 10 percentage points. The relative increase is 25%, not 10%.</p></li>
+                  <li><h5>Check every requested comparison</h5><p>The response omits invite-to-paid conversion. It stayed at 10%: 20/200 in Week 1 and 25/250 in Week 2.</p></li>
+                  <li><h5>Keep the conclusion within the evidence</h5><p>The source contains no information about an onboarding change. These figures cannot establish why the results changed.</p></li>
+                </ol>
+              </section>
+              <section class="evaluation-correction" aria-labelledby="evaluation-correction-title">
+                <p class="eyebrow">04 / Corrected answer</p>
+                <h4 id="evaluation-correction-title">A conclusion supported by the figures</h4>
+                <p>Demo completion increased from 40% (80/200) to 50% (125/250), up 10 percentage points. Demo-to-paid conversion fell from 25% (20/80) to 20% (25/125), down 5 percentage points. Invite-to-paid conversion stayed at 10% (20/200 and 25/250). Paid signups increased from 20 to 25, but the overall conversion rate did not improve. These figures do not identify the cause.</p>
+              </section>
+            </div>
+          </details>
+        </article>
+
         <div class="experience-list">
           <article class="experience-row">
             <div class="experience-date">

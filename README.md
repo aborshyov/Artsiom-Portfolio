@@ -15,7 +15,7 @@ Open `index.html` directly for a visual preview. To test clipboard functionality
 
 ## Content
 
-The page introduces Artsiom, highlights AthleteOS, summarizes experience and skills, and closes with education and contact options. The copy was updated using the October 12, 2026 AI Agent Evaluator resume, with the September 16 master resume supporting finance and earlier leadership details. Greensboro captaincy wording reflects Artsiom's October 27 update: he finished 2025-26 as assistant captain and is serving as assistant captain for 2026-27. The resume download is the unchanged October 12 PDF. Project notes expand with a native HTML disclosure control. The core page and navigation remain usable without JavaScript.
+The page introduces Artsiom, highlights AthleteOS, summarizes experience and skills, and closes with education and contact options. The copy was updated using the October 12, 2026 AI Agent Evaluator resume, with the September 16 master resume supporting finance and earlier leadership details. Greensboro captaincy wording reflects Artsiom's October 27 update: he finished 2025-26 as assistant captain and is serving as assistant captain for 2026-27. The resume download is the unchanged October 12 PDF. Project notes expand with a native HTML disclosure control. Experience also contains an expandable AI evaluation demonstration with fictional source figures and a deliberately flawed response. It includes the task, calculation and evidence checks, a review decision, and a corrected answer. It is a portfolio sample rather than an employer or client evaluation. The core page and navigation remain usable without JavaScript.
 
 ## Deployment
 
